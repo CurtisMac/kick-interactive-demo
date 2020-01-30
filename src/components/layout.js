@@ -1,11 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
+import { ThemeProvider } from "styled-components"
 import Helmet from "react-helmet"
 
 //Components
 import Header from "./header"
 import "../utils/normalize.css"
+import theme from "../utils/theme.js"
 
 //Styles
 const Container = styled.main`
@@ -24,13 +26,14 @@ const Layout = ({ children }) => {
           rel="stylesheet"
         />
       </Helmet>
-      <Header />
-      <Container>{children}</Container>
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
-      </footer>
+      <ThemeProvider theme={theme}>
+        <Header />
+        <Container>{children}</Container>
+        <footer>
+          © {new Date().getFullYear()}, Built with
+          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        </footer>
+      </ThemeProvider>
     </>
   )
 }
