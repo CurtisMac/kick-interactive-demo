@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Kick Demo`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    author: "Curtis MacLeod",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -12,6 +13,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `data`,
         path: `${__dirname}/src/data`,
       },
     },
