@@ -7,6 +7,7 @@ import Helmet from "react-helmet"
 //Components
 import Header from "./header"
 import "../utils/normalize.css"
+import "../utils/globalStyles.css"
 import theme from "../utils/theme.js"
 
 //Styles
@@ -22,9 +23,9 @@ const Layout = ({ children }) => {
       <Helmet>
         <html lang="en"></html>
         <link
-          href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+          href="https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Sans:400,700&display=swap"
           rel="stylesheet"
-        />
+        ></link>
       </Helmet>
       <ThemeProvider theme={theme}>
         <Header />
