@@ -13,5 +13,10 @@ a {
   font-family: "PT Sans", sans-serif;
   font-weight: 600;
 }
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
 `
 export default GlobalStyle

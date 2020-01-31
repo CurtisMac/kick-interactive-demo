@@ -10,13 +10,6 @@ import "../utils/normalize.css"
 import GlobalStyles from "../utils/globalStyles"
 import theme from "../utils/theme.js"
 
-//Styles
-const Container = styled.main`
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 0 1.0875rem 1.45rem;
-`
-
 const Layout = ({ children }) => {
   return (
     <>
@@ -30,7 +23,7 @@ const Layout = ({ children }) => {
       <ThemeProvider theme={theme}>
         <GlobalStyles />
         <Header />
-        <Container>{children}</Container>
+        {children}
         <footer>
           © {new Date().getFullYear()}, Built with
           <a href="https://www.gatsbyjs.org">Gatsby</a>
