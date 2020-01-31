@@ -1,0 +1,18 @@
+metadata:
+  metaDesc: >-
+    Chandler's Kitchens is the ultimate destination for bespoke kitchen design and fitting services
+  metaTitle: Chandler's Kitchens || Homepage
+services:
+  title: kitchen design service
+  text: >-
+    Buying a new kitchen can be a daunting task. There are many special oﬀers and huge variations in price, quality and service. We try to make things simple by oﬀering you a visual of your new kitchen with our free design service. We will show you 3D drawings and photo realistic images of the proposed design because we think its always advisable to see your new kitchen in the style and ﬁnish of your choice before you actually buy it.
+  cards:
+    - title: title
+      image: ../images/hero.png
+      text: text
+    - title: title
+      image: ../images/hero.png
+      text: text
+    - title: title
+      image: ../images/hero.png
+      text: text
