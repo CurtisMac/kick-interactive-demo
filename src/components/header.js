@@ -111,6 +111,12 @@ const MobileNavBtn = styled.button`
   position: relative;
   transform: rotate(0deg);
   transition: 0.5s ease-in-out;
+  will-change: auto;
+  &.open {
+    position: fixed;
+    right: 5%;
+    top: 38px;
+  }
 
   span {
     display: block;
@@ -195,7 +201,7 @@ class Header extends React.Component {
         <Container>
           <Logo src={logo} alt="Chandler's Kitchens logo"></Logo>
           <TopNav>{navLinks}</TopNav>
-          <MobileNavBtn onClick={this.toggle}>
+          <MobileNavBtn onClick={this.toggle} className={className}>
             <span className={className}></span>
             <span className={className}></span>
             <span className={className}></span>
