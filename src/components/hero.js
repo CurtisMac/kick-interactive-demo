@@ -1,10 +1,9 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import styled from "styled-components"
 
 //Styles
-const heroHeight = "200px"
+const heroHeight = "250px"
 const Parent = styled.div`
   height: ${heroHeight};
   display: flex;
@@ -24,28 +23,14 @@ const HeroImage = styled.div`
 const Title = styled.h1`
   text-align: center;
 `
-const Hero = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      placeholderImage: file(relativePath: { eq: "hero.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1200) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
-
+const Hero = props => {
+  const { text, alt, image } = props.data
   return (
     <Parent>
       <HeroImage>
-        <Img
-          className="img"
-          fluid={data.placeholderImage.childImageSharp.fluid}
-        />
+        <Img className="img" fluid={image.childImageSharp.fluid} alt={alt} />
       </HeroImage>
-      <Title>OUR BESPOKE KITCHENS</Title>
+      <Title className="container">{text.toUpperCase()}</Title>
     </Parent>
   )
 }
