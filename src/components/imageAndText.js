@@ -25,6 +25,7 @@ const TextWrapper = styled.div`
   margin-left: 15px;
   @media (max-width: ${props => props.theme.screen.medium}) {
     margin-left: 0;
+    text-align: center;
   }
 `
 const TextSection = styled.div`
