@@ -1,18 +1,86 @@
-metadata:
-  metaDesc: >-
-    Chandler's Kitchens is the ultimate destination for bespoke kitchen design and fitting services
-  metaTitle: Chandler's Kitchens || Homepage
+heroSection:
+  image: ../images/hero.png
+  alt: image of a bespoke kitchen
+  text: Our Bespoke Kitchens
 services:
   title: kitchen design service
   text: >-
     Buying a new kitchen can be a daunting task. There are many special oﬀers and huge variations in price, quality and service. We try to make things simple by oﬀering you a visual of your new kitchen with our free design service. We will show you 3D drawings and photo realistic images of the proposed design because we think its always advisable to see your new kitchen in the style and ﬁnish of your choice before you actually buy it.
   cards:
-    - title: title
-      image: ../images/hero.png
-      text: text
-    - title: title
-      image: ../images/hero.png
-      text: text
-    - title: title
-      image: ../images/hero.png
-      text: text
+    - title: Development Kitchens
+      image: ../images/DesignService1.jpg
+      text: Specialist and experienced design team available to work with you, delivering your project on time and within budget
+    - title: Trade Kitchens
+      image: ../images/DesignService2.jpg
+      text: Free kitchen survey and design services available to the trade including 3D visuals. Call 01273 420364
+    - title: Contract Kitchens
+      image: ../images/DesignService3.jpg
+      text: For the larger contractor, we are able to oﬀer a tailored solution to meet your exact speciﬁcations on any development
+showrooms:
+  title: our showrooms
+  text: >-
+    Our main kitchen showroom is in Brighton where you can discuss your options with our designers. We can show you plenty of projects we’ve worked on. We’ve designed kitchens from small bedsits to large housing developments & luxury homes. Our extensive range includes both contemporary & traditional kitchens; all are competitively priced so we can work with you whether you’re looking for low budget or high end designer style. We also have smaller kitchen showrooms at our Petworth and Chertsey branches where you can pick up a brochure detailing our full range.
+gallery:
+  - img: ../images/ShowroomImage1.jpg
+    alt: planning a bespoke kitchen
+  - img: ../images/ShowroomImage2.jpg
+    alt: a bespoke kitchen
+  - img: ../images/ShowroomImage3.jpg
+    alt: bespoke kitchen cabinet doors
+  - img: ../images/ShowroomImage4.jpg
+    alt: bespoke kitchen cabinet
+  - img: ../images/ShowroomImage5.jpg
+    alt: bespoke bathroom vanity
+  - img: ../images/ShowroomImage6.jpg
+    alt: planning a bespoke kitchen on a tablet
+brands:
+  title: Leading Brands in Store
+  images:
+    - img: ../images/quoocker.png
+      alt: Quooker Logo
+    - img: ../images/bosch.png
+      alt: Bosch Logo
+    - img: ../images/siemens.png
+      alt: Siemens Logo
+    - img: ../images/neff.png
+      alt: Neff Logo
+    - img: ../images/smeg.png
+      alt: SMEG Logo
+bespokeService:
+  image: ../images/FittingService.jpg
+  alt: bespoke kitchen
+  text:
+    - title: Fitting Service
+      text: |-
+        To get the very best from your new kitchen, Chandlers can ﬁt it for you too. We oﬀer a dry ﬁt installation service, which includes worktop ﬁtting. By choosing us to install your kitchen we will fully project manage the installation, carried out by our experienced ﬁtters. The work is not complete until the kitchen is signed oﬀ to your satisfaction. 
+
+        Our dry ﬁt installation includes the installation of all units, trims, panels, appliances, worktops and splashbacks. You will only need to arrange plumbing, electrical connections and decoration. The ﬁtting service is available for any number of kitchens from 1 to 100.
+    - title: A Kitchen Designed Just For You
+      text: |-
+        Using our designers will help you to get the absolute maximum from your space. Our experience and expertise enables us to not only see the simple ideas but come up with some innovative ones too. Whether we visit you on site or you visit the showroom, we have a full range of samples and oﬀer a complete site measurement service also. 
+
+        All our units have soft close doors and drawers as standard and, we oﬀer a competitively priced modiﬁcation service for the creation of bespoke size units. We work to your time scales, you can expect delivery 3 weeks from placing your order (painted kitchens carry a 4 week lead time).
+products:
+  - title: True Rigid Cabinets
+    image: ../images/TrueRigidCabinets.jpg
+    text: Our cabinets are made using traditional glue and dowel techniques, ensuring there are no visible ﬁxings or redundant drill holes. They arrive fully assembled.
+  - title: Appliances
+    image: ../images/Appliances.jpg
+    text: At Chandlers Building Supplies, we oﬀer a comprehensive range of kitchen appliances from Bosch, Neﬀ, Siemens, Smeg to suit all cooking levels and budgets.
+  - title: Worksurfaces
+    image: ../images/Worksurfaces.jpg
+    text: >-
+      Here at Chandlers Building Supplies, we can supply: Laminate / Glass / Granite / Quartz / Dekton & Corian worksurfaces and/or splashbacks.
+contact:
+  tel: 0800 2100 458
+  email: enquiries@kitchens.biz
+  social:
+    - icon: ../images/facebook_logo.png
+      url: https://facebook.com/
+      title: visit our facebook page
+    - icon: ../images/twitter_logo.png
+      url: hhttps://twitter.com/
+      title: visit our twitter page
+    - icon: ../images/linkedin_logo.png
+      url: https://www.linkedin.com/
+      title: visit our linkedin page
