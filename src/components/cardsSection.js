@@ -7,6 +7,9 @@ import Card from "../components/card"
 
 //Styles
 const Wrapper = styled.div`
+  && {
+    margin-top: 40px;
+  }
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
