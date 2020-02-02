@@ -3,6 +3,7 @@ import styled from "styled-components"
 
 //Styles
 const Container = styled.div`
+  margin-top: 40px;
   background-color: ${props => props.theme.colors.secondary};
   padding: 15px 0 30px;
 `
