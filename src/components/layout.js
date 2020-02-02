@@ -10,6 +10,11 @@ import "../utils/normalize.css"
 import GlobalStyles from "../utils/globalStyles"
 import theme from "../utils/theme.js"
 
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line global-require
+  require("smooth-scroll")('a[href*="#"]')
+}
+
 const Layout = ({ children }) => {
   return (
     <>
