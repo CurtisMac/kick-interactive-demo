@@ -20,12 +20,13 @@ const IndexPage = ({ data }) => {
     brands,
     bespokeService,
     products,
+    heroSection,
   } = data.dataYaml
   return (
     <Layout>
       <SEO title="Home" />
       <div id="kitchens">
-        <Hero />
+        <Hero data={heroSection} />
       </div>
       <div id="design_services">
         <TextSection data={services} />
@@ -53,6 +54,17 @@ const IndexPage = ({ data }) => {
 export const query = graphql`
   {
     dataYaml {
+      heroSection {
+        text
+        alt
+        image {
+          childImageSharp {
+            fluid(maxWidth: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
       services {
         cards {
           text
