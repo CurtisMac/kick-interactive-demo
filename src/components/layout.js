@@ -5,6 +5,7 @@ import Helmet from "react-helmet"
 
 //Components
 import Header from "./header"
+import Footer from "../components/footer"
 import "../utils/normalize.css"
 import GlobalStyles from "../utils/globalStyles"
 import theme from "../utils/theme.js"
@@ -23,10 +24,7 @@ const Layout = ({ children }) => {
         <GlobalStyles />
         <Header />
         {children}
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        <Footer />
       </ThemeProvider>
     </>
   )
