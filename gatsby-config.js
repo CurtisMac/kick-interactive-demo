@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Kick Demo`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Chandler's Kitchens is the ultimate destination for bespoke kitchen design and fitting services`,
     author: "Curtis MacLeod",
   },
   plugins: [
@@ -27,13 +27,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Kick Interative Demo`,
+        short_name: `Kick`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#0e4a66`,
+        theme_color: `#0e4a66`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo_alt.png`,
       },
     },
   ],
