@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
       <Helmet>
         <html lang="en"></html>
         <link
-          href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|PT+Sans:400,700&display=swap"
+          href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto&display=swap"
           rel="stylesheet"
         ></link>
       </Helmet>
