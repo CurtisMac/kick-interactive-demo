@@ -15,7 +15,12 @@ Hi Kick! Thanks for taking the time to look over my project. I build it with Gat
 
 ## 🧐 How to View
 
-Note: You will need nodejs installed
+Note: This project requires nodejs
+
+Install the npm packages
+```shell
+npm install
+```
 
 Either install the Gatsby CLI or use NPX
 
